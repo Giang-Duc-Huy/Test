@@ -1,0 +1,10 @@
+D:\Test\P_TB2\P_TB2\bin\Debug\P_TB2.exe.config
+D:\Test\P_TB2\P_TB2\bin\Debug\P_TB2.exe
+D:\Test\P_TB2\P_TB2\bin\Debug\P_TB2.pdb
+D:\Test\P_TB2\P_TB2\obj\Debug\P_TB2.csproj.AssemblyReference.cache
+D:\Test\P_TB2\P_TB2\obj\Debug\P_TB2.Form1.resources
+D:\Test\P_TB2\P_TB2\obj\Debug\P_TB2.Properties.Resources.resources
+D:\Test\P_TB2\P_TB2\obj\Debug\P_TB2.csproj.GenerateResource.cache
+D:\Test\P_TB2\P_TB2\obj\Debug\P_TB2.csproj.CoreCompileInputs.cache
+D:\Test\P_TB2\P_TB2\obj\Debug\P_TB2.exe
+D:\Test\P_TB2\P_TB2\obj\Debug\P_TB2.pdb

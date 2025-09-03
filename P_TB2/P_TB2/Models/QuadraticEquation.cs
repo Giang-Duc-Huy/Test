@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace P_TB2.Models
 {
-    public class QuadraticEquation
+    public interface IQuadraticSolver
+    {
+        string Solve(double a, double b, double c);
+    }
+
+    public class QuadraticEquation : IQuadraticSolver
     {
         public double A { get; set; }
         public double B { get; set; }
@@ -54,6 +59,12 @@ namespace P_TB2.Models
                 double x2 = (-B - Math.Sqrt(delta)) / (2 * A);
                 return $"Phương trình có 2 nghiệm phân biệt:x₁ = {x1:F2}    x₂ = {x2:F2}";
             }
+        }
+
+        public string Solve(double a, double b, double c)
+        {
+            var equation = new QuadraticEquation(a, b, c);
+            return equation.Solve();
         }
 
         public bool IsValidInput()
